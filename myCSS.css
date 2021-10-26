@@ -99,7 +99,7 @@ h2 {
 	width:250px;
 	height:250px;
 	position: relative;
- 	animation: mymove 5s infinite;
+ 	animation: mymove 0.1s infinite;
 }
 
 @keyframes mymove {
