@@ -74,13 +74,23 @@ p {
 h2 {
 	color: white;
 	font-family: Verdana, Arial;
+	transition: width 2s, height 2s, transform 2s;
 }
 
 .floatImg {
+	width:200px;
+	height:200px;
 	border-style: solid;
 	border-width: 1px;
 	border-color: #ffffff;
 	box-shadow: 5px 5px 5px white;
 	float: left;
 	margin: 0px 10px;
+ 	transition: width 1.5s, height 1.5s, transform 1.5s;
+}
+
+.floatImg:hover{
+	width:300px;
+	height: 300px;
+	filter: grayscale(75%);
 }
