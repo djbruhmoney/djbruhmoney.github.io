@@ -33,8 +33,17 @@ a:hover {
 }
 
 a:active {
-  color: red;
+  color: white;
 }
+
+nav {
+	font-size:150%;
+	color: #969696;
+	font-size:150%;
+	font-family: Arial;
+
+}
+
 #content {
 	background-color: #333333;
 	padding: 15px;
@@ -51,6 +60,7 @@ header, footer, #content {
 	width: 80%;
 	box-shadow: 5px 5px 5px white;
 }
+
 
 h1 {
 	color: white;
@@ -74,6 +84,20 @@ p {
 h2 {
 	color: white;
 	font-family: Verdana, Arial;
+	transition: width 2s, height 2s, transform 2s;
+}
+
+h3 {
+	color: white;
+	font-family: Verdana, Arial;
+	font-size:100%;
+	transition: width 2s, height 2s, transform 2s;
+}
+
+li {
+	color: white;
+	font-family: Verdana, Arial;
+	font-size:75%;
 	transition: width 2s, height 2s, transform 2s;
 }
 
@@ -105,4 +129,19 @@ h2 {
 @keyframes mymove {
 	from {left: 0px;}
 	to {left: 200px;}
+}
+
+.hide {
+  display: none;
+  margin-left:20px;
+  margin-right:500px;
+  font-size:35px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ffffff;
+  background-color:#616161;
+}
+    
+.floatImg:hover + .hide {
+  display: block;
 }
